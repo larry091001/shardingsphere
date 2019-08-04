@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.vbill.middleware.shardingjdbc.demo.mapper.UserMapper">
+    <resultMap id="ResultMapping" type="cn.vbill.middleware.shardingjdbc.demo.entity.User">
+        <result column="id" property="id" />
+        <result column="name" property="name" />
+        <result column="token" property="token" />
+    </resultMap>
+
+
+    <insert id="insert">
+        insert into t_user (id,name,token) values (#{user.id},#{user.name},#{user.token})
+    </insert>
+    <update id="update">
+        update t_user
+        <set>
+            <if test="user.name != null">
+                name = #{user.name},
+            </if>
+            <if test="user.token != null">
+                token = #{user.token},
+            </if>
+        </set>
+         where id = #{user.id}
+    </update>
+
+    <select id="selectById" resultMap="ResultMapping">
+        select id, name, token from t_user
+        where id = #{id}
+    </select>
+    <select id="findList" resultMap="ResultMapping">
+        select id, name, token from t_user
+        <where>
+            1 = 1
+            <if test="user.id != null and user.id != ''">
+                and id =  #{user.id} or id = 2
+            </if>
+            <if test="user.name != null and user.name != ''">
+                and name like concat('%', #{user.name}, '%')
+            </if>
+            <if test="user.token != null and user.token != ''">
+                and name =  #{user.token}
+            </if>
+        </where>
+    </select>
+
+    <select id="selectLogById" resultType="Map">
+        select id, user_id, log from t_user_log
+        where id = #{id}
+    </select>
+    <insert id="insertLog">
+        insert into t_user_log (id,user_id,log) values (#{log.id},#{log.userId},#{log.log})
+    </insert>
+    <select id="findLogList" resultType="Map">
+        select l.id, l.user_id, l.log from t_user_log l left join t_user_log ll on ll.id = l.id and ll.user_id in (1,2)
+        <where>
+            1 = 1  and (l.user_id=1 or l.user_id= 2) and l.log like '%s%'
+            <if test="log.id != null and log.id != ''">
+                and l.id =  #{log.id}
+            </if>
+            <if test="log.userId != null and log.userId != ''">
+                and l.user_id =  #{log.userId}
+            </if>
+        </where>
+    </select>
+</mapper>

@@ -1,0 +1,75 @@
+//apply plugin: 'java'
+version '0.3'
+
+repositories {
+    mavenLocal()
+    maven{ url"http://maven.aliyun.com/nexus/content/groups/public"}
+}
+
+
+subprojects {
+    apply plugin: 'java'
+    apply plugin: 'maven'
+    apply plugin: 'idea'
+    apply plugin: 'checkstyle'
+    ext {
+        group = 'cn.vbill.middleware'
+        junitVersion = '4.12'
+        version '0.3'
+        springVersion = '1.5.10.RELEASE'
+    }
+    sourceCompatibility = 1.8
+    targetCompatibility = 1.8
+
+    repositories {
+        mavenLocal()
+        maven{ url"http://172.16.60.188:8081/nexus/content/groups/public/"}
+    }
+    tasks.withType(JavaCompile) {
+        options.encoding = 'UTF-8'
+    }
+    dependencies {
+        testCompile "junit:junit:${junitVersion}"
+        compileOnly 'org.projectlombok:lombok:1.16.20'
+    }
+
+    clean.doFirst {
+        delete "${buildDir}/../out"
+    }
+
+    checkstyle {
+        toolVersion = 7.7
+        ignoreFailures = true
+        configFile = file(rootProject.getRootDir().getPath() + "/checkstyle.xml")
+    }
+
+    test {
+        ignoreFailures true
+    }
+
+    task sourcesJar(type: Jar) {
+        classifier = 'sources'
+        from sourceSets.main.allSource
+    }
+
+    artifacts {
+        archives jar
+        archives sourcesJar
+    }
+
+    uploadArchives {
+        repositories {
+            mavenDeployer {
+                //
+                snapshotRepository(url: "http://172.16.60.188:8081/nexus/content/repositories/snapshots/") {
+                    authentication(userName: 'deployment', password: 'lemon888')
+                }
+                //
+                repository(url: "http://172.16.60.188:8081/nexus/content/repositories/releases/") {
+                    authentication(userName: 'deployment', password: 'lemon888')
+                }
+            }
+        }
+    }
+}
+

@@ -1,0 +1,37 @@
+@Bean
+@ConditionalOnProperty(havingValue = "false", name = "sharding.unique")
+public BeanDefinitionRegistryPostProcessor dyamicRegistryBeanProcessor(@Autowired SharedJdbcContext context) {
+    return new BeanDefinitionRegistryPostProcessor() {
+        @Override
+        public void postProcessBeanFactory(ConfigurableListableBeanFactory configurableListableBeanFactory) throws BeansException {
+        }
+
+        @Override
+        public void postProcessBeanDefinitionRegistry(BeanDefinitionRegistry beanDefinitionRegistry) throws BeansException {
+            context.logicalDbNames().forEach(logical -> {
+                BeanDefinitionBuilder beanDefinitionBuilder = BeanDefinitionBuilder.rootBeanDefinition(SharedDatasourceProxy.class);
+                beanDefinitionBuilder.setAutowireMode(AutowireCapableBeanFactory.AUTOWIRE_BY_NAME);
+                beanDefinitionBuilder.setLazyInit(true);
+                beanDefinitionBuilder.addConstructorArgValue(logical);
+                beanDefinitionBuilder.addConstructorArgValue(context);
+                beanDefinitionRegistry.registerBeanDefinition(logical, beanDefinitionBuilder.getRawBeanDefinition());
+            });
+        }
+    };
+}
+
+
+
+
+@Bean
+public static SharedSourceStarterConiguration sharedSourceStarterConiguration(@Autowired ConfigurableEnvironment sourceEnv, @Autowired ResourceLoader resourceLoader) throws BindException {
+    SharedSourceStarterConiguration coniguration = new SharedSourceStarterConiguration();
+    //扫描配置文件
+    List<Resource> resources = ResourceScanner.scanResources(sourceEnv, resourceLoader, null);
+    ResourceScanner.appendToSysEnv(sourceEnv, resources);
+    PropertiesConfigurationFactory<SharedSourceConfiguration> factory = new PropertiesConfigurationFactory<>(coniguration);
+    factory.setPropertySources(sourceEnv.getPropertySources());
+    factory.setTargetName("sharding");
+    factory.bindPropertiesToTarget();
+    return coniguration;
+}

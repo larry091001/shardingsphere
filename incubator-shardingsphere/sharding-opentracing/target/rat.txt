@@ -1,0 +1,46 @@
+
+*****************************************************
+Summary
+-------
+Generated at: 2019-04-23T13:58:44+08:00
+
+Notes: 0
+Binaries: 0
+Archives: 0
+Standards: 20
+
+Apache Licensed: 20
+Generated Documents: 0
+
+JavaDocs are generated, thus a license header is optional.
+Generated files do not require license headers.
+
+0 Unknown Licenses
+
+*****************************************************
+  Files with Apache License headers will be marked AL
+  Binary files (which do not require any license headers) will be marked B
+  Compressed archives will be marked A
+  Notices, licenses etc. will be marked N
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-opentracing/pom.xml
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-opentracing/src/main/java/org/apache/shardingsphere/opentracing/constant/ShardingErrorLogTags.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-opentracing/src/main/java/org/apache/shardingsphere/opentracing/constant/ShardingTags.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-opentracing/src/main/java/org/apache/shardingsphere/opentracing/hook/OpenTracingParsingHook.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-opentracing/src/main/java/org/apache/shardingsphere/opentracing/hook/OpenTracingRootInvokeHook.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-opentracing/src/main/java/org/apache/shardingsphere/opentracing/hook/OpenTracingSQLExecutionHook.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-opentracing/src/main/java/org/apache/shardingsphere/opentracing/hook/ShardingErrorSpan.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-opentracing/src/main/java/org/apache/shardingsphere/opentracing/ShardingTracer.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-opentracing/src/main/resources/META-INF/services/org.apache.shardingsphere.core.execute.hook.RootInvokeHook
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-opentracing/src/main/resources/META-INF/services/org.apache.shardingsphere.core.execute.hook.SQLExecutionHook
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-opentracing/src/main/resources/META-INF/services/org.apache.shardingsphere.core.parse.hook.ParsingHook
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-opentracing/src/test/java/org/apache/shardingsphere/opentracing/AllTests.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-opentracing/src/test/java/org/apache/shardingsphere/opentracing/fixture/FooTracer.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-opentracing/src/test/java/org/apache/shardingsphere/opentracing/hook/AllHookTests.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-opentracing/src/test/java/org/apache/shardingsphere/opentracing/hook/BaseOpenTracingHookTest.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-opentracing/src/test/java/org/apache/shardingsphere/opentracing/hook/OpenTracingParsingHookTest.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-opentracing/src/test/java/org/apache/shardingsphere/opentracing/hook/OpenTracingRootInvokeHookTest.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-opentracing/src/test/java/org/apache/shardingsphere/opentracing/hook/OpenTracingSQLExecutionHookTest.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-opentracing/src/test/java/org/apache/shardingsphere/opentracing/ShardingTracerTest.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-opentracing/src/test/resources/mockito-extensions/org.mockito.plugins.MockMaker
+ 
+*****************************************************

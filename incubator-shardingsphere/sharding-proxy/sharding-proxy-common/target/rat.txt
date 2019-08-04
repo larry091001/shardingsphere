@@ -1,0 +1,45 @@
+
+*****************************************************
+Summary
+-------
+Generated at: 2019-04-23T13:56:49+08:00
+
+Notes: 0
+Binaries: 0
+Archives: 0
+Standards: 19
+
+Apache Licensed: 19
+Generated Documents: 0
+
+JavaDocs are generated, thus a license header is optional.
+Generated files do not require license headers.
+
+0 Unknown Licenses
+
+*****************************************************
+  Files with Apache License headers will be marked AL
+  Binary files (which do not require any license headers) will be marked B
+  Compressed archives will be marked A
+  Notices, licenses etc. will be marked N
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-proxy/sharding-proxy-common/pom.xml
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-proxy/sharding-proxy-common/src/main/java/org/apache/shardingsphere/shardingproxy/config/ShardingConfiguration.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-proxy/sharding-proxy-common/src/main/java/org/apache/shardingsphere/shardingproxy/config/ShardingConfigurationLoader.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-proxy/sharding-proxy-common/src/main/java/org/apache/shardingsphere/shardingproxy/config/yaml/YamlDataSourceParameter.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-proxy/sharding-proxy-common/src/main/java/org/apache/shardingsphere/shardingproxy/config/yaml/YamlProxyRuleConfiguration.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-proxy/sharding-proxy-common/src/main/java/org/apache/shardingsphere/shardingproxy/config/yaml/YamlProxyServerConfiguration.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-proxy/sharding-proxy-common/src/main/java/org/apache/shardingsphere/shardingproxy/context/ShardingProxyContext.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-proxy/sharding-proxy-common/src/main/java/org/apache/shardingsphere/shardingproxy/error/CommonErrorCode.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-proxy/sharding-proxy-common/src/main/java/org/apache/shardingsphere/shardingproxy/error/SQLErrorCode.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-proxy/sharding-proxy-common/src/main/java/org/apache/shardingsphere/shardingproxy/util/DataSourceConverter.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-proxy/sharding-proxy-common/src/test/java/org/apache/shardingsphere/shardingproxy/AllTests.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-proxy/sharding-proxy-common/src/test/java/org/apache/shardingsphere/shardingproxy/config/ShardingConfigurationLoaderTest.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-proxy/sharding-proxy-common/src/test/java/org/apache/shardingsphere/shardingproxy/context/ShardingProxyContextTest.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-proxy/sharding-proxy-common/src/test/java/org/apache/shardingsphere/shardingproxy/error/CommonErrorCodeTest.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-proxy/sharding-proxy-common/src/test/java/org/apache/shardingsphere/shardingproxy/util/DataSourceConverterTest.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-proxy/sharding-proxy-common/src/test/resources/conf/config-empty.yaml
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-proxy/sharding-proxy-common/src/test/resources/conf/config-master_slave.yaml
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-proxy/sharding-proxy-common/src/test/resources/conf/config-sharding.yaml
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-proxy/sharding-proxy-common/src/test/resources/conf/server.yaml
+ 
+*****************************************************

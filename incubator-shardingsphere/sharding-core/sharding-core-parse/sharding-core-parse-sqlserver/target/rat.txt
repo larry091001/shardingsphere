@@ -1,0 +1,42 @@
+
+*****************************************************
+Summary
+-------
+Generated at: 2019-04-23T13:55:03+08:00
+
+Notes: 0
+Binaries: 0
+Archives: 0
+Standards: 16
+
+Apache Licensed: 16
+Generated Documents: 0
+
+JavaDocs are generated, thus a license header is optional.
+Generated files do not require license headers.
+
+0 Unknown Licenses
+
+*****************************************************
+  Files with Apache License headers will be marked AL
+  Binary files (which do not require any license headers) will be marked B
+  Compressed archives will be marked A
+  Notices, licenses etc. will be marked N
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-parse/sharding-core-parse-sqlserver/pom.xml
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-parse/sharding-core-parse-sqlserver/src/main/antlr4/imports/sqlserver/Alphabet.g4
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-parse/sharding-core-parse-sqlserver/src/main/antlr4/imports/sqlserver/BaseRule.g4
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-parse/sharding-core-parse-sqlserver/src/main/antlr4/imports/sqlserver/DCLStatement.g4
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-parse/sharding-core-parse-sqlserver/src/main/antlr4/imports/sqlserver/DDLStatement.g4
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-parse/sharding-core-parse-sqlserver/src/main/antlr4/imports/sqlserver/Keyword.g4
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-parse/sharding-core-parse-sqlserver/src/main/antlr4/imports/sqlserver/Literals.g4
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-parse/sharding-core-parse-sqlserver/src/main/antlr4/imports/sqlserver/Symbol.g4
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-parse/sharding-core-parse-sqlserver/src/main/antlr4/imports/sqlserver/TCLStatement.g4
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-parse/sharding-core-parse-sqlserver/src/main/antlr4/org/apache/shardingsphere/core/parse/antlr/autogen/SQLServerStatement.g4
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-parse/sharding-core-parse-sqlserver/src/main/java/org/apache/shardingsphere/core/parse/extractor/SQLServerAddPrimaryKeyExtractor.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-parse/sharding-core-parse-sqlserver/src/main/java/org/apache/shardingsphere/core/parse/SQLServerParser.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-parse/sharding-core-parse-sqlserver/src/main/java/org/apache/shardingsphere/core/parse/SQLServerShardingParseEngine.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-parse/sharding-core-parse-sqlserver/src/main/resources/META-INF/parsing-rule-definition/sharding/sqlserver/extractor-rule-definition.xml
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-parse/sharding-core-parse-sqlserver/src/main/resources/META-INF/parsing-rule-definition/sharding/sqlserver/sql-statement-rule-definition.xml
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-parse/sharding-core-parse-sqlserver/src/main/resources/META-INF/services/org.apache.shardingsphere.core.parse.spi.ShardingParseEngine
+ 
+*****************************************************

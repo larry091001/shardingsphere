@@ -1,0 +1,7 @@
+rootProject.name = 'suixingpay-sharding-middleware'
+
+include 'suixingpay-sharding-jdbc-core'
+
+include 'suixingpay-sharding-jdbc-demo'
+
+include 'suixingpay-sharding-jdbc-starter'

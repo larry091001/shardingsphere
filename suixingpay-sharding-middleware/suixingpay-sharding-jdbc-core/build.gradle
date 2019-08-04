@@ -1,0 +1,14 @@
+group = 'cn.vbill.middleware.sharding'
+archivesBaseName = 'sharding-jdbc-core'
+ext {
+    shardingJdbc = '4.0.0.vbill'
+	commonLang='3.6'
+}
+dependencies {
+    compile (
+            "org.apache.shardingsphere:sharding-core-api:${shardingJdbc}",
+			"org.apache.shardingsphere:sharding-core-common:${shardingJdbc}",
+			"org.apache.shardingsphere:sharding-jdbc-spring-boot-starter:${shardingJdbc}",
+			"org.apache.commons:commons-lang3:${commonLang}"
+    )
+}

@@ -1,0 +1,4 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+  cn.vbill.middleware.shardingjdbc.starter.ShardingPropertyLoadAutoConfigure,\
+  cn.vbill.middleware.shardingjdbc.starter.SharedSourceAutoConfigure,\
+  cn.vbill.middleware.shardingjdbc.starter.DataSourceInjectAutoConfigure

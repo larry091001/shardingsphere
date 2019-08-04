@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Implementation-Title: sharding-jdbc-orchestration-spring-boot-starter
+Implementation-Version: 4.0.0.vbill
+Built-By: PC
+Specification-Vendor: The Apache Software Foundation
+Specification-Title: sharding-jdbc-orchestration-spring-boot-starter
+Implementation-Vendor-Id: org.apache.shardingsphere
+Build-Jdk: 1.8.0_191
+Specification-Version: 4.0.0.vbill
+Implementation-URL: http://shardingsphere.apache.org/sharding-spring/s
+ harding-jdbc-orchestration-spring/sharding-jdbc-orchestration-spring-
+ boot-starter
+Created-By: Maven Integration for Eclipse
+Implementation-Vendor: The Apache Software Foundation
+

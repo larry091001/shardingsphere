@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.vbill.middleware.shardingjdbc.demo.mapper.RegionMapper">
+    <resultMap id="ResultMapping" type="cn.vbill.middleware.shardingjdbc.demo.entity.Region">
+        <result column="id" property="id" />
+        <result column="name" property="name" />
+        <result column="code" property="code" />
+    </resultMap>
+    <select id="selectById" resultMap="ResultMapping">
+        select <include refid="columnList"/> from t_region t
+        where id = #{id}
+    </select>
+
+    <select id="findList" resultMap="ResultMapping">
+        select <include refid="columnList"/> from t_region
+        <where>
+            1 = 1
+            <if test="region.id != null and region.id != ''">
+                and id =  #{region.id}
+            </if>
+            <if test="region.code != null and region.code != ''">
+                and code = #{region.code}
+            </if>
+            <if test="region.name != null and region.name != ''">
+                and name like concat('%',#{region.name},'%')
+            </if>
+        </where>
+    </select>
+    <insert id="insert">
+        insert into t_region (id,`name`,code) values (#{region.id},#{region.name},#{region.code})
+    </insert>
+    <sql id="columnList">
+        id, name, code
+    </sql>
+</mapper>

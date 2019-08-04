@@ -1,0 +1,206 @@
+
+*****************************************************
+Summary
+-------
+Generated at: 2019-04-23T13:52:42+08:00
+
+Notes: 0
+Binaries: 1
+Archives: 0
+Standards: 179
+
+Apache Licensed: 179
+Generated Documents: 0
+
+JavaDocs are generated, thus a license header is optional.
+Generated files do not require license headers.
+
+0 Unknown Licenses
+
+*****************************************************
+  Files with Apache License headers will be marked AL
+  Binary files (which do not require any license headers) will be marked B
+  Compressed archives will be marked A
+  Notices, licenses etc. will be marked N
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-common/pom.xml
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-common/src/main/java/org/apache/shardingsphere/core/config/DatabaseAccessConfiguration.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-common/src/main/java/org/apache/shardingsphere/core/config/DataSourceConfiguration.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-common/src/main/java/org/apache/shardingsphere/core/constant/AggregationType.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-common/src/main/java/org/apache/shardingsphere/core/constant/ConnectionMode.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-common/src/main/java/org/apache/shardingsphere/core/constant/DatabaseType.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-common/src/main/java/org/apache/shardingsphere/core/constant/OrderDirection.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-common/src/main/java/org/apache/shardingsphere/core/constant/properties/ShardingProperties.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-common/src/main/java/org/apache/shardingsphere/core/constant/properties/ShardingPropertiesConstant.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-common/src/main/java/org/apache/shardingsphere/core/constant/ShardingConstant.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-common/src/main/java/org/apache/shardingsphere/core/constant/ShardingOperator.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-common/src/main/java/org/apache/shardingsphere/core/constant/SQLType.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-common/src/main/java/org/apache/shardingsphere/core/exception/ShardingConfigurationException.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-common/src/main/java/org/apache/shardingsphere/core/exception/ShardingException.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-common/src/main/java/org/apache/shardingsphere/core/metadata/datasource/DataSourceMetaData.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-common/src/main/java/org/apache/shardingsphere/core/metadata/datasource/DataSourceMetaDataFactory.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-common/src/main/java/org/apache/shardingsphere/core/metadata/datasource/dialect/H2DataSourceMetaData.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-common/src/main/java/org/apache/shardingsphere/core/metadata/datasource/dialect/MySQLDataSourceMetaData.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-common/src/main/java/org/apache/shardingsphere/core/metadata/datasource/dialect/OracleDataSourceMetaData.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-common/src/main/java/org/apache/shardingsphere/core/metadata/datasource/dialect/PostgreSQLDataSourceMetaData.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-common/src/main/java/org/apache/shardingsphere/core/metadata/datasource/dialect/SQLServerDataSourceMetaData.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-common/src/main/java/org/apache/shardingsphere/core/metadata/datasource/ShardingDataSourceMetaData.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-common/src/main/java/org/apache/shardingsphere/core/metadata/ShardingMetaData.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-common/src/main/java/org/apache/shardingsphere/core/metadata/table/ColumnMetaData.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-common/src/main/java/org/apache/shardingsphere/core/metadata/table/ShardingTableMetaData.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-common/src/main/java/org/apache/shardingsphere/core/metadata/table/TableMetaData.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-common/src/main/java/org/apache/shardingsphere/core/rule/Authentication.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-common/src/main/java/org/apache/shardingsphere/core/rule/BaseRule.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-common/src/main/java/org/apache/shardingsphere/core/rule/BindingTableRule.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-common/src/main/java/org/apache/shardingsphere/core/rule/ColumnNode.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-common/src/main/java/org/apache/shardingsphere/core/rule/DataNode.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-common/src/main/java/org/apache/shardingsphere/core/rule/EncryptRule.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-common/src/main/java/org/apache/shardingsphere/core/rule/MasterSlaveRule.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-common/src/main/java/org/apache/shardingsphere/core/rule/ShardingDataSourceNames.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-common/src/main/java/org/apache/shardingsphere/core/rule/ShardingRule.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-common/src/main/java/org/apache/shardingsphere/core/rule/TableRule.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-common/src/main/java/org/apache/shardingsphere/core/spi/algorithm/encrypt/ShardingEncryptorServiceLoader.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-common/src/main/java/org/apache/shardingsphere/core/spi/algorithm/keygen/ShardingKeyGeneratorServiceLoader.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-common/src/main/java/org/apache/shardingsphere/core/spi/algorithm/masterslave/MasterSlaveLoadBalanceAlgorithmServiceLoader.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-common/src/main/java/org/apache/shardingsphere/core/spi/algorithm/TypeBasedSPIServiceLoader.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-common/src/main/java/org/apache/shardingsphere/core/spi/NewInstanceServiceLoader.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-common/src/main/java/org/apache/shardingsphere/core/strategy/encrypt/impl/AESShardingEncryptor.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-common/src/main/java/org/apache/shardingsphere/core/strategy/encrypt/impl/MD5ShardingEncryptor.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-common/src/main/java/org/apache/shardingsphere/core/strategy/encrypt/ShardingEncryptorEngine.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-common/src/main/java/org/apache/shardingsphere/core/strategy/encrypt/ShardingEncryptorStrategy.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-common/src/main/java/org/apache/shardingsphere/core/strategy/keygen/SnowflakeShardingKeyGenerator.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-common/src/main/java/org/apache/shardingsphere/core/strategy/keygen/TimeService.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-common/src/main/java/org/apache/shardingsphere/core/strategy/keygen/UUIDShardingKeyGenerator.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-common/src/main/java/org/apache/shardingsphere/core/strategy/masterslave/RandomMasterSlaveLoadBalanceAlgorithm.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-common/src/main/java/org/apache/shardingsphere/core/strategy/masterslave/RoundRobinMasterSlaveLoadBalanceAlgorithm.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-common/src/main/java/org/apache/shardingsphere/core/strategy/route/complex/ComplexShardingStrategy.java
+  B     D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-common/src/main/java/org/apache/shardingsphere/core/strategy/route/db/DatabaseShardingStrategy.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-common/src/main/java/org/apache/shardingsphere/core/strategy/route/hint/HintShardingStrategy.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-common/src/main/java/org/apache/shardingsphere/core/strategy/route/inline/InlineShardingStrategy.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-common/src/main/java/org/apache/shardingsphere/core/strategy/route/none/NoneShardingStrategy.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-common/src/main/java/org/apache/shardingsphere/core/strategy/route/ShardingAlgorithmFactory.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-common/src/main/java/org/apache/shardingsphere/core/strategy/route/ShardingStrategy.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-common/src/main/java/org/apache/shardingsphere/core/strategy/route/ShardingStrategyFactory.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-common/src/main/java/org/apache/shardingsphere/core/strategy/route/standard/StandardShardingStrategy.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-common/src/main/java/org/apache/shardingsphere/core/strategy/route/value/BetweenRouteValue.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-common/src/main/java/org/apache/shardingsphere/core/strategy/route/value/ListRouteValue.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-common/src/main/java/org/apache/shardingsphere/core/strategy/route/value/ListShardingValue.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-common/src/main/java/org/apache/shardingsphere/core/strategy/route/value/RouteValue.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-common/src/main/java/org/apache/shardingsphere/core/util/InlineExpressionParser.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-common/src/main/java/org/apache/shardingsphere/core/util/NumberUtil.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-common/src/main/java/org/apache/shardingsphere/core/util/StringUtil.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-common/src/main/java/org/apache/shardingsphere/core/yaml/config/common/YamlAuthentication.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-common/src/main/java/org/apache/shardingsphere/core/yaml/config/common/YamlRootRuleConfiguration.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-common/src/main/java/org/apache/shardingsphere/core/yaml/config/encrypt/YamlEncryptorRuleConfiguration.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-common/src/main/java/org/apache/shardingsphere/core/yaml/config/encrypt/YamlEncryptRuleConfiguration.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-common/src/main/java/org/apache/shardingsphere/core/yaml/config/encrypt/YamlRootEncryptRuleConfiguration.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-common/src/main/java/org/apache/shardingsphere/core/yaml/config/masterslave/YamlMasterSlaveRuleConfiguration.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-common/src/main/java/org/apache/shardingsphere/core/yaml/config/masterslave/YamlRootMasterSlaveConfiguration.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-common/src/main/java/org/apache/shardingsphere/core/yaml/config/sharding/strategy/YamlBaseShardingStrategyConfiguration.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-common/src/main/java/org/apache/shardingsphere/core/yaml/config/sharding/strategy/YamlComplexShardingStrategyConfiguration.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-common/src/main/java/org/apache/shardingsphere/core/yaml/config/sharding/strategy/YamlHintShardingStrategyConfiguration.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-common/src/main/java/org/apache/shardingsphere/core/yaml/config/sharding/strategy/YamlInlineShardingStrategyConfiguration.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-common/src/main/java/org/apache/shardingsphere/core/yaml/config/sharding/strategy/YamlNoneShardingStrategyConfiguration.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-common/src/main/java/org/apache/shardingsphere/core/yaml/config/sharding/strategy/YamlStandardShardingStrategyConfiguration.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-common/src/main/java/org/apache/shardingsphere/core/yaml/config/sharding/YamlKeyGeneratorConfiguration.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-common/src/main/java/org/apache/shardingsphere/core/yaml/config/sharding/YamlRootShardingConfiguration.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-common/src/main/java/org/apache/shardingsphere/core/yaml/config/sharding/YamlShardingRuleConfiguration.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-common/src/main/java/org/apache/shardingsphere/core/yaml/config/sharding/YamlShardingStrategyConfiguration.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-common/src/main/java/org/apache/shardingsphere/core/yaml/config/sharding/YamlTableRuleConfiguration.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-common/src/main/java/org/apache/shardingsphere/core/yaml/config/YamlConfiguration.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-common/src/main/java/org/apache/shardingsphere/core/yaml/engine/DefaultYamlRepresenter.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-common/src/main/java/org/apache/shardingsphere/core/yaml/engine/YamlEngine.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-common/src/main/java/org/apache/shardingsphere/core/yaml/swapper/impl/AuthenticationYamlSwapper.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-common/src/main/java/org/apache/shardingsphere/core/yaml/swapper/impl/EncryptorRuleConfigurationYamlSwapper.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-common/src/main/java/org/apache/shardingsphere/core/yaml/swapper/impl/EncryptRuleConfigurationYamlSwapper.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-common/src/main/java/org/apache/shardingsphere/core/yaml/swapper/impl/KeyGeneratorConfigurationYamlSwapper.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-common/src/main/java/org/apache/shardingsphere/core/yaml/swapper/impl/MasterSlaveRuleConfigurationYamlSwapper.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-common/src/main/java/org/apache/shardingsphere/core/yaml/swapper/impl/ShardingRuleConfigurationYamlSwapper.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-common/src/main/java/org/apache/shardingsphere/core/yaml/swapper/impl/ShardingStrategyConfigurationYamlSwapper.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-common/src/main/java/org/apache/shardingsphere/core/yaml/swapper/impl/TableRuleConfigurationYamlSwapper.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-common/src/main/java/org/apache/shardingsphere/core/yaml/swapper/YamlSwapper.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-common/src/main/resources/META-INF/services/org.apache.shardingsphere.spi.encrypt.ShardingEncryptor
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-common/src/main/resources/META-INF/services/org.apache.shardingsphere.spi.keygen.ShardingKeyGenerator
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-common/src/main/resources/META-INF/services/org.apache.shardingsphere.spi.masterslave.MasterSlaveLoadBalanceAlgorithm
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-common/src/test/java/org/apache/shardingsphere/core/AllCoreTests.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-common/src/test/java/org/apache/shardingsphere/core/config/AllConfigTests.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-common/src/test/java/org/apache/shardingsphere/core/config/DataSourceConfigurationTest.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-common/src/test/java/org/apache/shardingsphere/core/constant/AllConstantsTests.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-common/src/test/java/org/apache/shardingsphere/core/constant/DatabaseTypeTest.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-common/src/test/java/org/apache/shardingsphere/core/constant/ShardingPropertiesConstantTest.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-common/src/test/java/org/apache/shardingsphere/core/constant/ShardingPropertiesTest.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-common/src/test/java/org/apache/shardingsphere/core/fixture/ComplexKeysShardingAlgorithmFixture.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-common/src/test/java/org/apache/shardingsphere/core/fixture/HintShardingAlgorithmFixture.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-common/src/test/java/org/apache/shardingsphere/core/fixture/PreciseShardingAlgorithmFixture.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-common/src/test/java/org/apache/shardingsphere/core/fixture/RangeShardingAlgorithmFixture.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-common/src/test/java/org/apache/shardingsphere/core/fixture/TestQueryAssistedShardingEncryptor.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-common/src/test/java/org/apache/shardingsphere/core/fixture/TestShardingEncryptor.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-common/src/test/java/org/apache/shardingsphere/core/metadata/AllMetaDataTests.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-common/src/test/java/org/apache/shardingsphere/core/metadata/datasource/DataSourceMetaDataFactoryTest.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-common/src/test/java/org/apache/shardingsphere/core/metadata/datasource/dialect/H2DataSourceMetaDataTest.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-common/src/test/java/org/apache/shardingsphere/core/metadata/datasource/dialect/MySQLDataSourceMetaDataTest.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-common/src/test/java/org/apache/shardingsphere/core/metadata/datasource/dialect/OracleDataSourceMetaDataTest.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-common/src/test/java/org/apache/shardingsphere/core/metadata/datasource/dialect/PostgreSQLDataSourceMetaDataTest.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-common/src/test/java/org/apache/shardingsphere/core/metadata/datasource/dialect/SQLServerDataSourceMetaDataTest.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-common/src/test/java/org/apache/shardingsphere/core/metadata/datasource/ShardingDataSourceMetaDataTest.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-common/src/test/java/org/apache/shardingsphere/core/rule/AllRuleTests.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-common/src/test/java/org/apache/shardingsphere/core/rule/BindingTableRuleTest.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-common/src/test/java/org/apache/shardingsphere/core/rule/DataNodeTest.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-common/src/test/java/org/apache/shardingsphere/core/rule/MasterSlaveRuleTest.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-common/src/test/java/org/apache/shardingsphere/core/rule/ShardingDataSourceNamesTest.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-common/src/test/java/org/apache/shardingsphere/core/rule/ShardingRuleTest.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-common/src/test/java/org/apache/shardingsphere/core/rule/TableRuleTest.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-common/src/test/java/org/apache/shardingsphere/core/spi/algorithm/BaseAlgorithmFactoryTest.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-common/src/test/java/org/apache/shardingsphere/core/spi/algorithm/fixture/BaseAlgorithmFixture.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-common/src/test/java/org/apache/shardingsphere/core/spi/algorithm/fixture/BaseAlgorithmFixtureImpl.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-common/src/test/java/org/apache/shardingsphere/core/spi/algorithm/fixture/BaseAlgorithmFixtureServiceLoader.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-common/src/test/java/org/apache/shardingsphere/core/spi/AllSPITests.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-common/src/test/java/org/apache/shardingsphere/core/spi/NewInstanceServiceLoaderTest.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-common/src/test/java/org/apache/shardingsphere/core/strategy/AllStrategyTests.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-common/src/test/java/org/apache/shardingsphere/core/strategy/encrypt/AllEncryptorTests.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-common/src/test/java/org/apache/shardingsphere/core/strategy/encrypt/fixture/TestQueryAssistedShardingEncryptor.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-common/src/test/java/org/apache/shardingsphere/core/strategy/encrypt/fixture/TestShardingEncryptor.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-common/src/test/java/org/apache/shardingsphere/core/strategy/encrypt/impl/AESShardingEncryptorTest.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-common/src/test/java/org/apache/shardingsphere/core/strategy/encrypt/impl/MD5ShardingEncryptorTest.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-common/src/test/java/org/apache/shardingsphere/core/strategy/encrypt/ShardingEncryptorServiceLoaderTest.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-common/src/test/java/org/apache/shardingsphere/core/strategy/encrypt/ShardingEncryptorStrategyTest.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-common/src/test/java/org/apache/shardingsphere/core/strategy/keygen/AllKeygenTests.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-common/src/test/java/org/apache/shardingsphere/core/strategy/keygen/fixture/FixedTimeService.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-common/src/test/java/org/apache/shardingsphere/core/strategy/keygen/fixture/IncrementShardingKeyGenerator.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-common/src/test/java/org/apache/shardingsphere/core/strategy/keygen/ShardingKeyGeneratorServiceLoaderTest.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-common/src/test/java/org/apache/shardingsphere/core/strategy/keygen/SnowflakeShardingKeyGeneratorTest.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-common/src/test/java/org/apache/shardingsphere/core/strategy/keygen/UUIDShardingKeyGeneratorTest.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-common/src/test/java/org/apache/shardingsphere/core/strategy/masterslave/AllMasterSlaveTests.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-common/src/test/java/org/apache/shardingsphere/core/strategy/masterslave/MasterSlaveLoadBalanceAlgorithmServiceLoaderTest.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-common/src/test/java/org/apache/shardingsphere/core/strategy/masterslave/RandomMasterSlaveLoadBalanceAlgorithmTest.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-common/src/test/java/org/apache/shardingsphere/core/strategy/masterslave/RoundRobinMasterSlaveLoadBalanceAlgorithmTest.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-common/src/test/java/org/apache/shardingsphere/core/strategy/route/fixture/ComplexKeysShardingAlgorithmFixture.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-common/src/test/java/org/apache/shardingsphere/core/strategy/route/fixture/HintShardingAlgorithmFixture.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-common/src/test/java/org/apache/shardingsphere/core/strategy/route/fixture/PreciseShardingAlgorithmFixture.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-common/src/test/java/org/apache/shardingsphere/core/strategy/route/fixture/RangeShardingAlgorithmFixture.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-common/src/test/java/org/apache/shardingsphere/core/strategy/route/ShardingStrategyTest.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-common/src/test/java/org/apache/shardingsphere/core/util/AllUtilTests.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-common/src/test/java/org/apache/shardingsphere/core/util/InlineExpressionParserTest.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-common/src/test/java/org/apache/shardingsphere/core/util/NumberUtilTest.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-common/src/test/java/org/apache/shardingsphere/core/util/StringUtilTest.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-common/src/test/java/org/apache/shardingsphere/core/yaml/AllYamlTests.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-common/src/test/java/org/apache/shardingsphere/core/yaml/engine/AllEngineTests.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-common/src/test/java/org/apache/shardingsphere/core/yaml/engine/DefaultYamlRepresenterTest.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-common/src/test/java/org/apache/shardingsphere/core/yaml/engine/fixture/DefaultYamlRepresenterFixture.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-common/src/test/java/org/apache/shardingsphere/core/yaml/engine/YamlEngineMasterSlaveConfigurationTest.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-common/src/test/java/org/apache/shardingsphere/core/yaml/engine/YamlEngineShardingConfigurationTest.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-common/src/test/java/org/apache/shardingsphere/core/yaml/engine/YamlEngineTest.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-common/src/test/java/org/apache/shardingsphere/core/yaml/swapper/AllSwapperTests.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-common/src/test/java/org/apache/shardingsphere/core/yaml/swapper/impl/AuthenticationYamlSwapperTest.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-common/src/test/java/org/apache/shardingsphere/core/yaml/swapper/impl/EncryptorRuleConfigurationYamlSwapperTest.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-common/src/test/java/org/apache/shardingsphere/core/yaml/swapper/impl/KeyGeneratorConfigurationYamlSwapperTest.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-common/src/test/java/org/apache/shardingsphere/core/yaml/swapper/impl/MasterSlaveRuleConfigurationYamlSwapperTest.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-common/src/test/java/org/apache/shardingsphere/core/yaml/swapper/impl/ShardingRuleConfigurationYamlSwapperTest.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-common/src/test/java/org/apache/shardingsphere/core/yaml/swapper/impl/ShardingStrategyConfigurationYamlSwapperTest.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-common/src/test/java/org/apache/shardingsphere/core/yaml/swapper/impl/TableRuleConfigurationYamlSwapperTest.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-common/src/test/resources/META-INF/services/org.apache.shardingsphere.core.spi.algorithm.fixture.BaseAlgorithmFixture
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-common/src/test/resources/META-INF/services/org.apache.shardingsphere.spi.encrypt.ShardingEncryptor
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-common/src/test/resources/META-INF/services/org.apache.shardingsphere.spi.keygen.ShardingKeyGenerator
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-common/src/test/resources/yaml/master-slave-rule.yaml
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-common/src/test/resources/yaml/sharding-rule.yaml
+ 
+*****************************************************

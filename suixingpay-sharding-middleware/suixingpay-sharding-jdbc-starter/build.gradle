@@ -1,0 +1,9 @@
+group = 'cn.vbill.middleware.sharding'
+archivesBaseName = 'sharding-jdbc-starter'
+
+dependencies {
+    compile (
+            "org.springframework.boot:spring-boot-starter:${springVersion}",
+            project(":suixingpay-sharding-jdbc-core")
+    )
+}

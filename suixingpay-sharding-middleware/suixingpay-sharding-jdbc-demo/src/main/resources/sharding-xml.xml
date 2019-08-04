@@ -1,0 +1,27 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:util="http://www.springframework.org/schema/util"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+		http://www.springframework.org/schema/beans/spring-beans-4.0.xsd
+		http://www.springframework.org/schema/util
+		http://www.springframework.org/schema/util/spring-util-3.0.xsd">
+
+    <!-- 分库分表初始化-->
+    <bean id="sharedSourceConfiguration" init-method="initMethod" class="cn.vbill.middleware.shardingjdbc.spring.SharedSourceConfigInitiation">
+        <property name="location" value="sharding-vbill.properties" />
+    </bean>
+    <!--数据源上下文-->
+    <bean id="sharedJdbcContext" class="cn.vbill.middleware.shardingjdbc.spring.SharedJdbcContextProxy">
+        <constructor-arg ref="sharedSourceConfiguration"></constructor-arg>
+    </bean>
+    <!-- 支持通过 @SharedSource注入数据源-->
+    <bean id="dataSourceBeanPostProcessor" class="cn.vbill.middleware.shardingjdbc.spring.DataSourceBeanPostProcessor">
+        <property name="context" ref="sharedJdbcContext" />
+    </bean>
+
+    <!-- bean id 为dataSource数据源-->
+    <bean id="dataSource" class="cn.vbill.middleware.shardingjdbc.spring.SharedDatasourceProxy">
+        <constructor-arg value="sharding_db"/><!-- 逻辑数据库名 -->
+        <constructor-arg ref="sharedJdbcContext"/>
+    </bean>
+</beans>

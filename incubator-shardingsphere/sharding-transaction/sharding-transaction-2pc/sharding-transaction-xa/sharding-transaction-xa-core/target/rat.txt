@@ -1,0 +1,84 @@
+
+*****************************************************
+Summary
+-------
+Generated at: 2019-04-23T13:57:36+08:00
+
+Notes: 0
+Binaries: 0
+Archives: 0
+Standards: 58
+
+Apache Licensed: 58
+Generated Documents: 0
+
+JavaDocs are generated, thus a license header is optional.
+Generated files do not require license headers.
+
+0 Unknown Licenses
+
+*****************************************************
+  Files with Apache License headers will be marked AL
+  Binary files (which do not require any license headers) will be marked B
+  Compressed archives will be marked A
+  Notices, licenses etc. will be marked N
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-transaction/sharding-transaction-2pc/sharding-transaction-xa/sharding-transaction-xa-core/pom.xml
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-transaction/sharding-transaction-2pc/sharding-transaction-xa/sharding-transaction-xa-core/src/main/java/org/apache/shardingsphere/transaction/xa/jta/connection/dialect/H2XAConnectionWrapper.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-transaction/sharding-transaction-2pc/sharding-transaction-xa/sharding-transaction-xa-core/src/main/java/org/apache/shardingsphere/transaction/xa/jta/connection/dialect/MySQLXAConnectionWrapper.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-transaction/sharding-transaction-2pc/sharding-transaction-xa/sharding-transaction-xa-core/src/main/java/org/apache/shardingsphere/transaction/xa/jta/connection/dialect/PostgreSQLXAConnectionWrapper.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-transaction/sharding-transaction-2pc/sharding-transaction-xa/sharding-transaction-xa-core/src/main/java/org/apache/shardingsphere/transaction/xa/jta/connection/SingleXAConnection.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-transaction/sharding-transaction-2pc/sharding-transaction-xa/sharding-transaction-xa-core/src/main/java/org/apache/shardingsphere/transaction/xa/jta/connection/XAConnectionFactory.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-transaction/sharding-transaction-2pc/sharding-transaction-xa/sharding-transaction-xa-core/src/main/java/org/apache/shardingsphere/transaction/xa/jta/connection/XAConnectionWrapper.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-transaction/sharding-transaction-2pc/sharding-transaction-xa/sharding-transaction-xa-core/src/main/java/org/apache/shardingsphere/transaction/xa/jta/datasource/AbstractUnsupportedSingleXADataSource.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-transaction/sharding-transaction-2pc/sharding-transaction-xa/sharding-transaction-xa-core/src/main/java/org/apache/shardingsphere/transaction/xa/jta/datasource/properties/dialect/H2XAProperties.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-transaction/sharding-transaction-2pc/sharding-transaction-xa/sharding-transaction-xa-core/src/main/java/org/apache/shardingsphere/transaction/xa/jta/datasource/properties/dialect/MySQLXAProperties.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-transaction/sharding-transaction-2pc/sharding-transaction-xa/sharding-transaction-xa-core/src/main/java/org/apache/shardingsphere/transaction/xa/jta/datasource/properties/dialect/OracleXAProperties.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-transaction/sharding-transaction-2pc/sharding-transaction-xa/sharding-transaction-xa-core/src/main/java/org/apache/shardingsphere/transaction/xa/jta/datasource/properties/dialect/PostgreSQLXAProperties.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-transaction/sharding-transaction-2pc/sharding-transaction-xa/sharding-transaction-xa-core/src/main/java/org/apache/shardingsphere/transaction/xa/jta/datasource/properties/dialect/SQLServerXAProperties.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-transaction/sharding-transaction-2pc/sharding-transaction-xa/sharding-transaction-xa-core/src/main/java/org/apache/shardingsphere/transaction/xa/jta/datasource/properties/XAProperties.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-transaction/sharding-transaction-2pc/sharding-transaction-xa/sharding-transaction-xa-core/src/main/java/org/apache/shardingsphere/transaction/xa/jta/datasource/properties/XAPropertiesFactory.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-transaction/sharding-transaction-2pc/sharding-transaction-xa/sharding-transaction-xa-core/src/main/java/org/apache/shardingsphere/transaction/xa/jta/datasource/SingleXADataSource.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-transaction/sharding-transaction-2pc/sharding-transaction-xa/sharding-transaction-xa-core/src/main/java/org/apache/shardingsphere/transaction/xa/jta/datasource/swapper/DataSourcePropertyProvider.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-transaction/sharding-transaction-2pc/sharding-transaction-xa/sharding-transaction-xa-core/src/main/java/org/apache/shardingsphere/transaction/xa/jta/datasource/swapper/DataSourcePropertyProviderLoader.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-transaction/sharding-transaction-2pc/sharding-transaction-xa/sharding-transaction-xa-core/src/main/java/org/apache/shardingsphere/transaction/xa/jta/datasource/swapper/DataSourceSwapper.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-transaction/sharding-transaction-2pc/sharding-transaction-xa/sharding-transaction-xa-core/src/main/java/org/apache/shardingsphere/transaction/xa/jta/datasource/swapper/impl/DefaultDataSourcePropertyProvider.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-transaction/sharding-transaction-2pc/sharding-transaction-xa/sharding-transaction-xa-core/src/main/java/org/apache/shardingsphere/transaction/xa/jta/datasource/swapper/impl/HikariCPPropertyProvider.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-transaction/sharding-transaction-2pc/sharding-transaction-xa/sharding-transaction-xa-core/src/main/java/org/apache/shardingsphere/transaction/xa/jta/datasource/XADataSourceFactory.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-transaction/sharding-transaction-2pc/sharding-transaction-xa/sharding-transaction-xa-core/src/main/java/org/apache/shardingsphere/transaction/xa/manager/atomikos/AtomikosTransactionManager.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-transaction/sharding-transaction-2pc/sharding-transaction-xa/sharding-transaction-xa-core/src/main/java/org/apache/shardingsphere/transaction/xa/manager/atomikos/AtomikosXARecoverableResource.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-transaction/sharding-transaction-2pc/sharding-transaction-xa/sharding-transaction-xa-core/src/main/java/org/apache/shardingsphere/transaction/xa/manager/XATransactionManagerLoader.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-transaction/sharding-transaction-2pc/sharding-transaction-xa/sharding-transaction-xa-core/src/main/java/org/apache/shardingsphere/transaction/xa/XAShardingTransactionManager.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-transaction/sharding-transaction-2pc/sharding-transaction-xa/sharding-transaction-xa-core/src/main/resources/jta.properties
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-transaction/sharding-transaction-2pc/sharding-transaction-xa/sharding-transaction-xa-core/src/main/resources/META-INF/services/org.apache.shardingsphere.transaction.spi.ShardingTransactionManager
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-transaction/sharding-transaction-2pc/sharding-transaction-xa/sharding-transaction-xa-core/src/main/resources/META-INF/services/org.apache.shardingsphere.transaction.xa.jta.datasource.swapper.DataSourcePropertyProvider
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-transaction/sharding-transaction-2pc/sharding-transaction-xa/sharding-transaction-xa-core/src/test/java/org/apache/shardingsphere/transaction/xa/AllTests.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-transaction/sharding-transaction-2pc/sharding-transaction-xa/sharding-transaction-xa-core/src/test/java/org/apache/shardingsphere/transaction/xa/fixture/DataSourceUtils.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-transaction/sharding-transaction-2pc/sharding-transaction-xa/sharding-transaction-xa-core/src/test/java/org/apache/shardingsphere/transaction/xa/fixture/FixtureXATransactionManager.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-transaction/sharding-transaction-2pc/sharding-transaction-xa/sharding-transaction-xa-core/src/test/java/org/apache/shardingsphere/transaction/xa/fixture/ReflectiveUtil.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-transaction/sharding-transaction-2pc/sharding-transaction-xa/sharding-transaction-xa-core/src/test/java/org/apache/shardingsphere/transaction/xa/jta/AllJTATests.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-transaction/sharding-transaction-2pc/sharding-transaction-xa/sharding-transaction-xa-core/src/test/java/org/apache/shardingsphere/transaction/xa/jta/connection/dialect/MySQLXAConnectionWrapperTest.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-transaction/sharding-transaction-2pc/sharding-transaction-xa/sharding-transaction-xa-core/src/test/java/org/apache/shardingsphere/transaction/xa/jta/connection/dialect/PostgreSQLXAConnectionWrapperTest.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-transaction/sharding-transaction-2pc/sharding-transaction-xa/sharding-transaction-xa-core/src/test/java/org/apache/shardingsphere/transaction/xa/jta/connection/SingleXAConnectionTest.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-transaction/sharding-transaction-2pc/sharding-transaction-xa/sharding-transaction-xa-core/src/test/java/org/apache/shardingsphere/transaction/xa/jta/connection/XAConnectionFactoryTest.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-transaction/sharding-transaction-2pc/sharding-transaction-xa/sharding-transaction-xa-core/src/test/java/org/apache/shardingsphere/transaction/xa/jta/datasource/properties/dialect/H2XAPropertiesTest.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-transaction/sharding-transaction-2pc/sharding-transaction-xa/sharding-transaction-xa-core/src/test/java/org/apache/shardingsphere/transaction/xa/jta/datasource/properties/dialect/MySQLXAPropertiesTest.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-transaction/sharding-transaction-2pc/sharding-transaction-xa/sharding-transaction-xa-core/src/test/java/org/apache/shardingsphere/transaction/xa/jta/datasource/properties/dialect/OracleXAPropertiesTest.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-transaction/sharding-transaction-2pc/sharding-transaction-xa/sharding-transaction-xa-core/src/test/java/org/apache/shardingsphere/transaction/xa/jta/datasource/properties/dialect/PostgreSQLXAPropertiesTest.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-transaction/sharding-transaction-2pc/sharding-transaction-xa/sharding-transaction-xa-core/src/test/java/org/apache/shardingsphere/transaction/xa/jta/datasource/properties/dialect/SQLServerXAPropertiesTest.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-transaction/sharding-transaction-2pc/sharding-transaction-xa/sharding-transaction-xa-core/src/test/java/org/apache/shardingsphere/transaction/xa/jta/datasource/properties/XAPropertiesFactoryTest.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-transaction/sharding-transaction-2pc/sharding-transaction-xa/sharding-transaction-xa-core/src/test/java/org/apache/shardingsphere/transaction/xa/jta/datasource/SingleXADataSourceTest.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-transaction/sharding-transaction-2pc/sharding-transaction-xa/sharding-transaction-xa-core/src/test/java/org/apache/shardingsphere/transaction/xa/jta/datasource/swapper/DataSourcePropertyProviderLoaderTest.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-transaction/sharding-transaction-2pc/sharding-transaction-xa/sharding-transaction-xa-core/src/test/java/org/apache/shardingsphere/transaction/xa/jta/datasource/swapper/DataSourceSwapperTest.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-transaction/sharding-transaction-2pc/sharding-transaction-xa/sharding-transaction-xa-core/src/test/java/org/apache/shardingsphere/transaction/xa/jta/datasource/swapper/impl/DefaultDataSourcePropertyProviderTest.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-transaction/sharding-transaction-2pc/sharding-transaction-xa/sharding-transaction-xa-core/src/test/java/org/apache/shardingsphere/transaction/xa/jta/datasource/swapper/impl/HikariCPPropertyProviderTest.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-transaction/sharding-transaction-2pc/sharding-transaction-xa/sharding-transaction-xa-core/src/test/java/org/apache/shardingsphere/transaction/xa/jta/datasource/XADataSourceFactoryTest.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-transaction/sharding-transaction-2pc/sharding-transaction-xa/sharding-transaction-xa-core/src/test/java/org/apache/shardingsphere/transaction/xa/manager/AllManagerTests.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-transaction/sharding-transaction-2pc/sharding-transaction-xa/sharding-transaction-xa-core/src/test/java/org/apache/shardingsphere/transaction/xa/manager/atomikos/AtomikosTransactionManagerTest.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-transaction/sharding-transaction-2pc/sharding-transaction-xa/sharding-transaction-xa-core/src/test/java/org/apache/shardingsphere/transaction/xa/manager/atomikos/AtomikosXARecoverableResourceTest.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-transaction/sharding-transaction-2pc/sharding-transaction-xa/sharding-transaction-xa-core/src/test/java/org/apache/shardingsphere/transaction/xa/manager/XATransactionManagerLoaderTest.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-transaction/sharding-transaction-2pc/sharding-transaction-xa/sharding-transaction-xa-core/src/test/java/org/apache/shardingsphere/transaction/xa/XAShardingTransactionManagerTest.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-transaction/sharding-transaction-2pc/sharding-transaction-xa/sharding-transaction-xa-core/src/test/resources/jta.properties
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-transaction/sharding-transaction-2pc/sharding-transaction-xa/sharding-transaction-xa-core/src/test/resources/logback-test.xml
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-transaction/sharding-transaction-2pc/sharding-transaction-xa/sharding-transaction-xa-core/src/test/resources/META-INF/services/org.apache.shardingsphere.transaction.xa.spi.XATransactionManager
+ 
+*****************************************************

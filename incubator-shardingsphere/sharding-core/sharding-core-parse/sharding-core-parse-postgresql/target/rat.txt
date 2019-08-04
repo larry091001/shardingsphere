@@ -1,0 +1,43 @@
+
+*****************************************************
+Summary
+-------
+Generated at: 2019-04-23T13:54:24+08:00
+
+Notes: 0
+Binaries: 0
+Archives: 0
+Standards: 17
+
+Apache Licensed: 17
+Generated Documents: 0
+
+JavaDocs are generated, thus a license header is optional.
+Generated files do not require license headers.
+
+0 Unknown Licenses
+
+*****************************************************
+  Files with Apache License headers will be marked AL
+  Binary files (which do not require any license headers) will be marked B
+  Compressed archives will be marked A
+  Notices, licenses etc. will be marked N
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-parse/sharding-core-parse-postgresql/pom.xml
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-parse/sharding-core-parse-postgresql/src/main/antlr4/imports/postgresql/Alphabet.g4
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-parse/sharding-core-parse-postgresql/src/main/antlr4/imports/postgresql/BaseRule.g4
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-parse/sharding-core-parse-postgresql/src/main/antlr4/imports/postgresql/DALStatement.g4
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-parse/sharding-core-parse-postgresql/src/main/antlr4/imports/postgresql/DCLStatement.g4
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-parse/sharding-core-parse-postgresql/src/main/antlr4/imports/postgresql/DDLStatement.g4
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-parse/sharding-core-parse-postgresql/src/main/antlr4/imports/postgresql/Keyword.g4
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-parse/sharding-core-parse-postgresql/src/main/antlr4/imports/postgresql/Literals.g4
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-parse/sharding-core-parse-postgresql/src/main/antlr4/imports/postgresql/Symbol.g4
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-parse/sharding-core-parse-postgresql/src/main/antlr4/imports/postgresql/TCLStatement.g4
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-parse/sharding-core-parse-postgresql/src/main/antlr4/org/apache/shardingsphere/core/parse/antlr/autogen/PostgreSQLStatement.g4
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-parse/sharding-core-parse-postgresql/src/main/java/org/apache/shardingsphere/core/parse/extractor/ShowParamExtractor.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-parse/sharding-core-parse-postgresql/src/main/java/org/apache/shardingsphere/core/parse/PostgreSQLParser.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-parse/sharding-core-parse-postgresql/src/main/java/org/apache/shardingsphere/core/parse/PostgreSQLShardingParseEngine.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-parse/sharding-core-parse-postgresql/src/main/resources/META-INF/parsing-rule-definition/sharding/postgresql/extractor-rule-definition.xml
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-parse/sharding-core-parse-postgresql/src/main/resources/META-INF/parsing-rule-definition/sharding/postgresql/sql-statement-rule-definition.xml
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-parse/sharding-core-parse-postgresql/src/main/resources/META-INF/services/org.apache.shardingsphere.core.parse.spi.ShardingParseEngine
+ 
+*****************************************************

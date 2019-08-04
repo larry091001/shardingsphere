@@ -1,0 +1,6 @@
+org\apache\shardingsphere\test\sql\AntlrSQLCasesLoader.class
+org\apache\shardingsphere\test\sql\SQLCasesLoader$1.class
+org\apache\shardingsphere\test\sql\SQLCase.class
+org\apache\shardingsphere\test\sql\SQLCaseType.class
+org\apache\shardingsphere\test\sql\SQLCases.class
+org\apache\shardingsphere\test\sql\SQLCasesLoader.class

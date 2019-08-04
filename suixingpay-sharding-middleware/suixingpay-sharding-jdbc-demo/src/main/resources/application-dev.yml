@@ -1,0 +1,20 @@
+logging:
+  level:
+    root: info
+    org:
+      mybatis: debug
+    cn:
+      vbill:
+        middleware:
+          shardingjdbc:
+            demo:
+              mapper: debug
+#sharding.file=sharding-vbill.properties
+sharding:
+  unique: true
+  active: false
+
+#mybatis配置
+mybatis:
+  typeAliasesPackage: cn.vbill.middleware.shardingjdbc.demo.entity
+  mapperLocations: classpath*:mapper/*.xml

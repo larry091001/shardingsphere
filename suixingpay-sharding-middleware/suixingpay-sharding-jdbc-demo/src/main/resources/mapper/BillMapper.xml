@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.vbill.middleware.shardingjdbc.demo.mapper.BillMapper">
+    <resultMap id="ResultMapping" type="cn.vbill.middleware.shardingjdbc.demo.entity.Bill">
+        <result column="id" property="id" />
+        <result column="user_id" property="userId" />
+        <result column="amount" property="amount" />
+    </resultMap>
+
+
+    <insert id="insert">
+        insert into t_bill (id,user_id,amount) values (#{bill.id},#{bill.userId},#{bill.amount})
+    </insert>
+    <update id="update">
+        update t_bill
+        <set>
+            <if test="bill.userId != null">
+                user_id = #{bill.userId},
+            </if>
+            <if test="bill.amount != null">
+                amount = #{bill.amount},
+            </if>
+        </set>
+         where id = #{bill.id}
+    </update>
+
+    <select id="selectById" resultMap="ResultMapping">
+        select <include refid="columnList"/> from t_bill t
+        where id = #{id}
+    </select>
+    <select id="findList" resultMap="ResultMapping">
+        select <include refid="columnList"/> from t_bill t left join  t_user u on u.id=t.user_id
+        <where>
+            <if test="id != null and id != ''">
+                and t.id =  #{id}
+            </if>
+            <if test="userId != null and userId != ''">
+                and u.id = #{userId}
+            </if>
+        </where>
+    </select>
+
+    <sql id="columnList">
+        t.id, t.user_id, t.amount
+    </sql>
+</mapper>

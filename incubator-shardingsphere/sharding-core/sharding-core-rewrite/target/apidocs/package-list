@@ -1,0 +1,3 @@
+org.apache.shardingsphere.core.rewrite
+org.apache.shardingsphere.core.rewrite.hook
+org.apache.shardingsphere.core.rewrite.placeholder

@@ -1,0 +1,4 @@
+org.apache.shardingsphere.core.parse
+org.apache.shardingsphere.core.parse.antlr.autogen
+org.apache.shardingsphere.core.parse.extractor
+org.apache.shardingsphere.core.parse.optimizer

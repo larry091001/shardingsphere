@@ -1,0 +1,57 @@
+
+*****************************************************
+Summary
+-------
+Generated at: 2019-04-23T13:55:29+08:00
+
+Notes: 0
+Binaries: 0
+Archives: 0
+Standards: 31
+
+Apache Licensed: 31
+Generated Documents: 0
+
+JavaDocs are generated, thus a license header is optional.
+Generated files do not require license headers.
+
+0 Unknown Licenses
+
+*****************************************************
+  Files with Apache License headers will be marked AL
+  Binary files (which do not require any license headers) will be marked B
+  Compressed archives will be marked A
+  Notices, licenses etc. will be marked N
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-rewrite/pom.xml
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-rewrite/src/main/java/org/apache/shardingsphere/core/rewrite/EncryptSQLRewriteEngine.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-rewrite/src/main/java/org/apache/shardingsphere/core/rewrite/hook/RewriteHook.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-rewrite/src/main/java/org/apache/shardingsphere/core/rewrite/hook/SPIRewriteHook.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-rewrite/src/main/java/org/apache/shardingsphere/core/rewrite/MasterSlaveSQLRewriteEngine.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-rewrite/src/main/java/org/apache/shardingsphere/core/rewrite/placeholder/AggregationDistinctPlaceholder.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-rewrite/src/main/java/org/apache/shardingsphere/core/rewrite/placeholder/EncryptUpdateItemColumnPlaceholder.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-rewrite/src/main/java/org/apache/shardingsphere/core/rewrite/placeholder/EncryptWhereColumnPlaceholder.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-rewrite/src/main/java/org/apache/shardingsphere/core/rewrite/placeholder/IndexPlaceholder.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-rewrite/src/main/java/org/apache/shardingsphere/core/rewrite/placeholder/InsertSetPlaceholder.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-rewrite/src/main/java/org/apache/shardingsphere/core/rewrite/placeholder/InsertValuesPlaceholder.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-rewrite/src/main/java/org/apache/shardingsphere/core/rewrite/placeholder/SchemaPlaceholder.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-rewrite/src/main/java/org/apache/shardingsphere/core/rewrite/placeholder/ShardingPlaceholder.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-rewrite/src/main/java/org/apache/shardingsphere/core/rewrite/placeholder/TablePlaceholder.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-rewrite/src/main/java/org/apache/shardingsphere/core/rewrite/SQLBuilder.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-rewrite/src/main/java/org/apache/shardingsphere/core/rewrite/SQLRewriteEngine.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-rewrite/src/test/java/org/apache/shardingsphere/core/rewrite/AllRewriteTests.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-rewrite/src/test/java/org/apache/shardingsphere/core/rewrite/EncryptSQLRewriteEngineTest.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-rewrite/src/test/java/org/apache/shardingsphere/core/rewrite/fixture/TestQueryAssistedShardingEncryptor.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-rewrite/src/test/java/org/apache/shardingsphere/core/rewrite/fixture/TestShardingEncryptor.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-rewrite/src/test/java/org/apache/shardingsphere/core/rewrite/hook/fixture/RewriteHookFixture.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-rewrite/src/test/java/org/apache/shardingsphere/core/rewrite/hook/SPIRewriteHookTest.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-rewrite/src/test/java/org/apache/shardingsphere/core/rewrite/placeholder/AllPlaceholderTests.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-rewrite/src/test/java/org/apache/shardingsphere/core/rewrite/placeholder/EncryptUpdateItemColumnPlaceholderTest.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-rewrite/src/test/java/org/apache/shardingsphere/core/rewrite/placeholder/EncryptWhereColumnPlaceholderTest.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-rewrite/src/test/java/org/apache/shardingsphere/core/rewrite/SQLBuilderTest.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-rewrite/src/test/java/org/apache/shardingsphere/core/rewrite/SQLRewriteEngineTest.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-rewrite/src/test/resources/logback-test.xml
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-rewrite/src/test/resources/META-INF/services/org.apache.shardingsphere.core.rewrite.hook.RewriteHook
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-rewrite/src/test/resources/META-INF/services/org.apache.shardingsphere.spi.encrypt.ShardingEncryptor
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-rewrite/src/test/resources/yaml/rewrite-rule.yaml
+ 
+*****************************************************

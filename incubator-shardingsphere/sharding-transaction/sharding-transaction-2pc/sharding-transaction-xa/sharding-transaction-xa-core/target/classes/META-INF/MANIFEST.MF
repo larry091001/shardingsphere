@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Implementation-Title: sharding-transaction-xa-core
+Implementation-Version: 4.0.0.vbill
+Built-By: PC
+Specification-Vendor: The Apache Software Foundation
+Specification-Title: sharding-transaction-xa-core
+Implementation-Vendor-Id: org.apache.shardingsphere
+Build-Jdk: 1.8.0_191
+Specification-Version: 4.0.0.vbill
+Implementation-URL: http://shardingsphere.apache.org/sharding-transact
+ ion/sharding-transaction-2pc/sharding-transaction-xa/sharding-transac
+ tion-xa-core
+Created-By: Maven Integration for Eclipse
+Implementation-Vendor: The Apache Software Foundation
+

@@ -1,0 +1,29 @@
+apply plugin: 'application'
+group = 'cn.vbill.middleware.sharding'
+archivesBaseName = 'sharding-jdbc-demo'
+mainClassName = "cn.vbill.middleware.shardingjdbc.demo.ShardingDemoApplication"
+
+ext {
+    mysqlDriver = '6.0.4'
+    druidVersion = '1.1.7'
+    mybatisVersion = '1.3.2'
+}
+//将子项目包复制到根目录
+build.doLast {
+    def rootPath = rootProject.buildDir.getPath() + "/distributions"
+    copy {
+        from buildDir.getPath() + "/distributions" into rootPath
+    }
+}
+dependencies {
+    compile (
+            "com.alibaba:druid-spring-boot-starter:${druidVersion}",
+            "org.mybatis.spring.boot:mybatis-spring-boot-starter:${mybatisVersion}",
+            "org.springframework.boot:spring-boot-starter-aop:${springVersion}",
+            "org.springframework.boot:spring-boot-starter-web:${springVersion}",
+            "org.springframework.boot:spring-boot-starter-jdbc:${springVersion}",
+            "org.springframework.boot:spring-boot-starter-actuator:${springVersion}",
+            "mysql:mysql-connector-java:${mysqlDriver}",
+            project(":suixingpay-sharding-jdbc-starter")
+    )
+}

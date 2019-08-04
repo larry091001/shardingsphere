@@ -1,0 +1,53 @@
+
+*****************************************************
+Summary
+-------
+Generated at: 2019-04-23T13:55:13+08:00
+
+Notes: 0
+Binaries: 0
+Archives: 0
+Standards: 27
+
+Apache Licensed: 27
+Generated Documents: 0
+
+JavaDocs are generated, thus a license header is optional.
+Generated files do not require license headers.
+
+0 Unknown Licenses
+
+*****************************************************
+  Files with Apache License headers will be marked AL
+  Binary files (which do not require any license headers) will be marked B
+  Compressed archives will be marked A
+  Notices, licenses etc. will be marked N
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-optimize/pom.xml
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-optimize/src/main/java/org/apache/shardingsphere/core/optimize/condition/ShardingCondition.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-optimize/src/main/java/org/apache/shardingsphere/core/optimize/condition/ShardingConditions.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-optimize/src/main/java/org/apache/shardingsphere/core/optimize/engine/encrypt/EncryptDefaultOptimizeEngine.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-optimize/src/main/java/org/apache/shardingsphere/core/optimize/engine/encrypt/EncryptInsertOptimizeEngine.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-optimize/src/main/java/org/apache/shardingsphere/core/optimize/engine/OptimizeEngine.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-optimize/src/main/java/org/apache/shardingsphere/core/optimize/engine/sharding/insert/InsertOptimizeEngine.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-optimize/src/main/java/org/apache/shardingsphere/core/optimize/engine/sharding/query/AlwaysFalseShardingCondition.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-optimize/src/main/java/org/apache/shardingsphere/core/optimize/engine/sharding/query/AlwaysFalseShardingValue.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-optimize/src/main/java/org/apache/shardingsphere/core/optimize/engine/sharding/query/QueryOptimizeEngine.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-optimize/src/main/java/org/apache/shardingsphere/core/optimize/GeneratedKey.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-optimize/src/main/java/org/apache/shardingsphere/core/optimize/OptimizeEngineFactory.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-optimize/src/main/java/org/apache/shardingsphere/core/optimize/result/insert/ColumnValueOptimizeResult.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-optimize/src/main/java/org/apache/shardingsphere/core/optimize/result/insert/InsertOptimizeResult.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-optimize/src/main/java/org/apache/shardingsphere/core/optimize/result/insert/InsertOptimizeResultUnit.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-optimize/src/main/java/org/apache/shardingsphere/core/optimize/result/insert/SetAssignmentOptimizeResult.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-optimize/src/main/java/org/apache/shardingsphere/core/optimize/result/OptimizeResult.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-optimize/src/test/java/org/apache/shardingsphere/core/optimize/AllOptimizerTests.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-optimize/src/test/java/org/apache/shardingsphere/core/optimize/engine/encrypt/EncryptInsertOptimizeEngineTest.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-optimize/src/test/java/org/apache/shardingsphere/core/optimize/engine/sharding/InsertOptimizeEngineTest.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-optimize/src/test/java/org/apache/shardingsphere/core/optimize/engine/sharding/QueryOptimizeEngineTest.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-optimize/src/test/java/org/apache/shardingsphere/core/optimize/fixture/TestQueryAssistedShardingEncryptor.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-optimize/src/test/java/org/apache/shardingsphere/core/optimize/fixture/TestShardingEncryptor.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-optimize/src/test/java/org/apache/shardingsphere/core/optimize/GeneratedKeyTest.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-optimize/src/test/java/org/apache/shardingsphere/core/optimize/result/InsertOptimizeResultTest.java
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-optimize/src/test/resources/META-INF/services/org.apache.shardingsphere.spi.encrypt.ShardingEncryptor
+  AL    D:/sharding-project-work/suixingpay-sharding/incubator-shardingsphere/sharding-core/sharding-core-optimize/src/test/resources/yaml/optimize-rule.yaml
+ 
+*****************************************************

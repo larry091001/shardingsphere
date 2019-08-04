@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Implementation-Title: sharding-proxy-common
+Implementation-Version: 4.0.0.vbill
+Built-By: PC
+Specification-Vendor: The Apache Software Foundation
+Specification-Title: sharding-proxy-common
+Implementation-Vendor-Id: org.apache.shardingsphere
+Build-Jdk: 1.8.0_191
+Specification-Version: 4.0.0.vbill
+Implementation-URL: http://shardingsphere.apache.org/sharding-proxy/sh
+ arding-proxy-common
+Created-By: Maven Integration for Eclipse
+Implementation-Vendor: The Apache Software Foundation
+
